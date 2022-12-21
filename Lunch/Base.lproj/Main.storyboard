@@ -27,12 +27,134 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHB-kR-bN9">
+                                <rect key="frame" x="20" y="311" width="353" height="230"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="K3r-2F-JSt">
+                                        <rect key="frame" x="20" y="22" width="313" height="186"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="5Py-x7-Cn3">
+                                                <rect key="frame" x="0.0" y="0.0" width="313" height="89"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPc-th-gqP">
+                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="89"/>
+                                                        <color key="backgroundColor" red="1" green="0.41547456890000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="TPc-th-gqP" secondAttribute="height" multiplier="1:1" id="OhE-K5-QeM"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="면">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dU-2t-3Ul">
+                                                        <rect key="frame" x="112" y="0.0" width="89" height="89"/>
+                                                        <color key="backgroundColor" red="1" green="0.41547456890000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="5dU-2t-3Ul" secondAttribute="height" multiplier="1:1" id="KUr-Wf-jhb"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="덮밥">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QG0-Pi-X4P">
+                                                        <rect key="frame" x="224" y="0.0" width="89" height="89"/>
+                                                        <color key="backgroundColor" red="1" green="0.41547456890000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="QG0-Pi-X4P" secondAttribute="height" multiplier="1:1" id="IMr-Hx-RZm"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="국/탕">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="5dU-2t-3Ul" firstAttribute="width" secondItem="5dU-2t-3Ul" secondAttribute="height" multiplier="1:1" id="dST-D0-kbp"/>
+                                                    <constraint firstItem="QG0-Pi-X4P" firstAttribute="width" secondItem="QG0-Pi-X4P" secondAttribute="height" multiplier="1:1" id="eMn-2p-8h9"/>
+                                                    <constraint firstItem="QG0-Pi-X4P" firstAttribute="width" secondItem="QG0-Pi-X4P" secondAttribute="height" multiplier="1:1" id="rHy-CY-bfF"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="0sD-N1-FSS">
+                                                <rect key="frame" x="0.0" y="97" width="313" height="89"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byR-w3-CMl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="89"/>
+                                                        <color key="backgroundColor" red="1" green="0.41547456890000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="byR-w3-CMl" secondAttribute="height" multiplier="1:1" id="LQ7-Xp-voe"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="간편식">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDb-6u-wav">
+                                                        <rect key="frame" x="112" y="0.0" width="89" height="89"/>
+                                                        <color key="backgroundColor" red="1" green="0.41547456890000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="QDb-6u-wav" secondAttribute="height" multiplier="1:1" id="fBF-Dw-YpI"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="특식">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3F-h4-bk9">
+                                                        <rect key="frame" x="224" y="0.0" width="89" height="89"/>
+                                                        <color key="backgroundColor" red="1" green="0.41547456890000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="y3F-h4-bk9" secondAttribute="height" multiplier="1:1" id="28j-OS-dbT"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="기타">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="y3F-h4-bk9" firstAttribute="width" secondItem="y3F-h4-bk9" secondAttribute="height" multiplier="1:1" id="BKr-Mk-Acu"/>
+                                                    <constraint firstItem="y3F-h4-bk9" firstAttribute="width" secondItem="y3F-h4-bk9" secondAttribute="height" multiplier="1:1" id="SWS-ps-4Ax"/>
+                                                    <constraint firstItem="QDb-6u-wav" firstAttribute="width" secondItem="QDb-6u-wav" secondAttribute="height" multiplier="1:1" id="tgz-E9-sNd"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="K3r-2F-JSt" firstAttribute="centerY" secondItem="PHB-kR-bN9" secondAttribute="centerY" id="2Jf-Fi-bvg"/>
+                                    <constraint firstAttribute="trailing" secondItem="K3r-2F-JSt" secondAttribute="trailing" constant="20" id="A5v-LT-5oN"/>
+                                    <constraint firstItem="K3r-2F-JSt" firstAttribute="centerX" secondItem="PHB-kR-bN9" secondAttribute="centerX" id="DT6-PV-VP4"/>
+                                    <constraint firstAttribute="height" constant="230" id="Hze-Ej-VhO"/>
+                                    <constraint firstItem="K3r-2F-JSt" firstAttribute="centerX" secondItem="PHB-kR-bN9" secondAttribute="centerX" id="L6t-Qb-L2q"/>
+                                    <constraint firstItem="K3r-2F-JSt" firstAttribute="leading" secondItem="PHB-kR-bN9" secondAttribute="leading" constant="20" id="SbV-db-s6Y"/>
+                                    <constraint firstItem="K3r-2F-JSt" firstAttribute="centerY" secondItem="PHB-kR-bN9" secondAttribute="centerY" id="xyo-dH-oTO"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
+                            <constraint firstItem="PHB-kR-bN9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FuV-mx-iBN"/>
                             <constraint firstItem="7y9-z1-MWt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gkJ-t7-rVO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PHB-kR-bN9" secondAttribute="trailing" constant="20" id="hye-je-UTt"/>
                             <constraint firstItem="7y9-z1-MWt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="jcB-t5-CFv"/>
+                            <constraint firstItem="PHB-kR-bN9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vRH-kR-bbL"/>
+                            <constraint firstItem="PHB-kR-bN9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y1Z-MP-vaM"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -44,6 +166,9 @@
     <resources>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
