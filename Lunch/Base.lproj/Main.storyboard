@@ -17,21 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 뭐 먹지?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7y9-z1-MWt">
-                                <rect key="frame" x="96.666666666666686" y="149" width="200" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="PkL-Eb-V8i"/>
-                                    <constraint firstAttribute="width" constant="200" id="dRm-1c-Dhc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PHB-kR-bN9">
-                                <rect key="frame" x="20" y="311" width="353" height="230"/>
+                                <rect key="frame" x="20" y="286" width="353" height="280"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="K3r-2F-JSt">
-                                        <rect key="frame" x="20" y="22" width="313" height="186"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="K3r-2F-JSt">
+                                        <rect key="frame" x="20" y="36" width="313" height="208"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="5Py-x7-Cn3">
                                                 <rect key="frame" x="0.0" y="0.0" width="313" height="89"/>
@@ -48,6 +38,11 @@
                                                         <state key="normal" title="면">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dU-2t-3Ul">
                                                         <rect key="frame" x="112" y="0.0" width="89" height="89"/>
@@ -61,6 +56,11 @@
                                                         <state key="normal" title="덮밥">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QG0-Pi-X4P">
                                                         <rect key="frame" x="224" y="0.0" width="89" height="89"/>
@@ -74,6 +74,11 @@
                                                         <state key="normal" title="국/탕">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -83,7 +88,7 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="0sD-N1-FSS">
-                                                <rect key="frame" x="0.0" y="97" width="313" height="89"/>
+                                                <rect key="frame" x="0.0" y="119" width="313" height="89"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byR-w3-CMl">
                                                         <rect key="frame" x="0.0" y="0.0" width="89" height="89"/>
@@ -97,6 +102,11 @@
                                                         <state key="normal" title="간편식">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDb-6u-wav">
                                                         <rect key="frame" x="112" y="0.0" width="89" height="89"/>
@@ -110,6 +120,11 @@
                                                         <state key="normal" title="특식">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3F-h4-bk9">
                                                         <rect key="frame" x="224" y="0.0" width="89" height="89"/>
@@ -123,6 +138,11 @@
                                                         <state key="normal" title="기타">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -139,24 +159,42 @@
                                     <constraint firstItem="K3r-2F-JSt" firstAttribute="centerY" secondItem="PHB-kR-bN9" secondAttribute="centerY" id="2Jf-Fi-bvg"/>
                                     <constraint firstAttribute="trailing" secondItem="K3r-2F-JSt" secondAttribute="trailing" constant="20" id="A5v-LT-5oN"/>
                                     <constraint firstItem="K3r-2F-JSt" firstAttribute="centerX" secondItem="PHB-kR-bN9" secondAttribute="centerX" id="DT6-PV-VP4"/>
-                                    <constraint firstAttribute="height" constant="230" id="Hze-Ej-VhO"/>
+                                    <constraint firstAttribute="height" constant="280" id="Hze-Ej-VhO"/>
                                     <constraint firstItem="K3r-2F-JSt" firstAttribute="centerX" secondItem="PHB-kR-bN9" secondAttribute="centerX" id="L6t-Qb-L2q"/>
                                     <constraint firstItem="K3r-2F-JSt" firstAttribute="leading" secondItem="PHB-kR-bN9" secondAttribute="leading" constant="20" id="SbV-db-s6Y"/>
                                     <constraint firstItem="K3r-2F-JSt" firstAttribute="centerY" secondItem="PHB-kR-bN9" secondAttribute="centerY" id="xyo-dH-oTO"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 뭐 먹지?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Am-iL-uM9">
+                                <rect key="frame" x="46" y="139" width="300" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="JuU-Lb-CQl"/>
+                                    <constraint firstAttribute="height" constant="60" id="Qbu-Gm-Inw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
+                            <constraint firstItem="6Am-iL-uM9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BLC-qD-ovM"/>
+                            <constraint firstItem="6Am-iL-uM9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="ETY-26-8cf"/>
                             <constraint firstItem="PHB-kR-bN9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FuV-mx-iBN"/>
-                            <constraint firstItem="7y9-z1-MWt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gkJ-t7-rVO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PHB-kR-bN9" secondAttribute="trailing" constant="20" id="hye-je-UTt"/>
-                            <constraint firstItem="7y9-z1-MWt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="jcB-t5-CFv"/>
                             <constraint firstItem="PHB-kR-bN9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vRH-kR-bbL"/>
                             <constraint firstItem="PHB-kR-bN9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y1Z-MP-vaM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="foodView" destination="PHB-kR-bN9" id="Jls-Fm-ja7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
