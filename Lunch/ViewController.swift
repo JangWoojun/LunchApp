@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var mainLabel: UILabel!
+    @IBOutlet weak var choiceFoodButton: UIButton!
     
     var food : String?
     
@@ -63,6 +64,7 @@ class ViewController: UIViewController {
             default:
                 break
             }
+            choiceFoodButton.isEnabled = false
         } else {
             showToast(message: "아직 음식 종류가 선택되지 않았어요!")
         }
@@ -87,6 +89,11 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func resetTapped(_ sender: UIButton) {
+        food = nil
+        choiceFoodButton.isEnabled = true
+        mainLabel.text = "오늘 뭐 먹지?"
+    }
     
     
 }
