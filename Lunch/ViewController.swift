@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var mainLabel: UILabel!
-   
+    
     var food : String?
     
     let noodle = [
@@ -47,8 +47,22 @@ class ViewController: UIViewController {
     
     @IBAction func choiceFoodTapped(_ sender: UIButton) {
         if food != nil {
-            
-            
+            switch food {
+            case "면":
+                mainLabel.text =  noodle.randomElement()
+            case "밥":
+                mainLabel.text = rice.randomElement()
+            case "국물":
+                mainLabel.text = soup.randomElement()
+            case "간편식":
+                mainLabel.text = fastFood.randomElement()
+            case "특식":
+                mainLabel.text = special.randomElement()
+            case "기타":
+                mainLabel.text = etc.randomElement()
+            default:
+                break
+            }
         } else {
             
         }
